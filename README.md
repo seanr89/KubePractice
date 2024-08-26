@@ -54,3 +54,4 @@ minikube service kubernetes --url
 1. [minikube-url](https://minikube.sigs.k8s.io/docs/handbook/accessing/)
 2. [docker-local](https://stackoverflow.com/questions/40144138/pull-a-local-image-to-run-a-pod-in-kubernetes)
 3. [guide](https://zeet.co/blog/kubernetes-deployment-history)
+4. [youtube-guide](https://www.youtube.com/watch?v=r8Z8yO5x-Zw&t=59s)
