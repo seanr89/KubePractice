@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bun-app
+  namespace: my-bun-app
+spec:
+  containers:
+  - name: bun-app
+    image: bun-app:latest
+    imagePullPolicy: IfNotPresent
+    ports: 
+    - containerPort: 8000
