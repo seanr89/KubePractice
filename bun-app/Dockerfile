@@ -1,5 +1,5 @@
 FROM oven/bun
 COPY . .
 RUN bun install
-EXPOSE 8000
+EXPOSE 5000
 CMD ["bun", "index.ts"]

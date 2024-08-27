@@ -1,7 +1,7 @@
 import { env } from "bun";
 
 const server = Bun.serve({
-    port: env.PORT || 3000,
+    port: env.PORT || 5000,
     async fetch(req) {
         const { method } = req;
         const { pathname } = new URL(req.url);
