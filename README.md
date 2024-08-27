@@ -4,7 +4,7 @@ Repo support to test out kubernetes etc..
 
 ## Commands
 
-docker build!
+docker build
 ```
 docker build . -t bun-app:latest
 ```
@@ -42,26 +42,27 @@ deploy the pod etc
 kubectl apply -f pod.yml
 ```
 
+ideas
 ```
 kubectl get svc
 ```
 
-get pods
+Get pods
 ```
 kubectl get pods
 ```
 
-
-access into kube
+Access into kube
 ```
 kubectl -exec -it bun-app -- /bin/bash
 ```
 
-port forwarding for remote out of app!
+Port forwarding for remote out of app
 ```
 kubectl port-forward bun-app 5000:5000
 ```
 
+Go grab stuff
 ```
 minikube service kubernetes --url
 ```
